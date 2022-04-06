@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    background-color: #f8f5f0;
+}
+
+
+.inline-block {display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    margin-left: 3%;
+    padding-top: 55px;
+}
+
+
+.navigation {width: 100%;
+    background-color: #f8f5f0;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+
+ ul {display: inline-block;
+    width: 75%;
+    margin-left: auto;
+    list-style-type: none;
+    text-align: center;
+    padding-top: 0%;}
+    
+ul2 {display: inline-block;
+    width: 75%;
+    margin-left: auto;
+    list-style-type: none;
+    text-align: center;
+    padding-top: 0%;
+}
+
+li{ display: inline-block;
+    padding-left: 50px;
+    padding-right: 25px;
+    margin-bottom: 11px;
+}
+
+.heroImg { height: 600px;
+        padding: 50px;
+        padding-top: 150px;
+        text-align: center;
+        width: 500px;
+        margin: 0 auto;
+        padding-bottom: 0;
+    }
+
+.intro {
+    text-align: center;
+}
+
+
+.footer{background-color: #373738;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+}
+button{border-radius: 95px;
+    width: 190px;
+    height: 50px;
+    background-color: #6F866B;
+    color: whitesmoke;
+    border-color: none;
+}
+
+.flexContainer {
+    text-align: center;
+}
+
+.flexContainer img {
+   align-content: center;
+    margin: 20px;
+
+}
+
+img {
+    border: 20px;
+}
+
+.flexContainer2 {
+    display: flex;
+    text-align: center;
+
+}
+
+.flexContainer2 img {
+    display: flex;
+    text-align: center;
+    ;
+}
+
+.workGrid {
+    background-color: #D0A892;
+    text-align: center;
+    margin-bottom: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 3%;
+}
+
+.usDol {}
+
+.workGrid p{
+    margin-left: 39%;
+}
+.mySkills {
+    text-align: center;
+    background-position: center;
+    background-color: #D0A892;
+    margin-left: 23%;
+    padding: 3%;
+    border-radius: 4%;
+    width: 50%;
+}
+
+.myTools {
+    text-align: center;
+    background-position: center;
+    background-color: #D0A892;
+    margin-left: 23%;
+    padding: 3%;
+    border-radius: 4%;
+    width: 50%;
+}
+
+.myWork {
+    text-align: center;
+    display:grid;
+}
